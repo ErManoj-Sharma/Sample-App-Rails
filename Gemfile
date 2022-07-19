@@ -12,6 +12,16 @@ gem 'rubocop', require: false
 gem 'bcrypt', '3.1.13'
 # adding bootstrap-sass gem in Gemfile
 gem 'bootstrap-sass', '3.4.1'
+# adding gem for pagination 
+gem 'will_paginate','3.3.0'
+gem 'bootstrap-will_paginate','1.0.0'
+# adding gem for image procesing 
+gem 'image_processing'
+gem 'mini_magick'
+# adding gem for image validation
+gem 'active_storage_validations'
+# adding faker gem for dummy data
+gem 'faker'
 gem 'net-smtp'
 
 # for integration testing
@@ -51,7 +61,7 @@ group :development do
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'listen', '~> 3.3'
   gem 'rack-mini-profiler', '~> 2.0'
-  gem 'listen', '~> 3.3'
+  gem 'image_magick'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
